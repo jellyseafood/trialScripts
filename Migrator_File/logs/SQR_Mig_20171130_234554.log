@@ -1,0 +1,105 @@
+---------START Backup------------ 
+--Creating Backup of Dest File on Dest Folder
+"Dummy_Folders\PRJ\file1.sqr" to "Dummy_Folders\PRJ\file1.sqr_20171130_234554"
+The system cannot find the file specified.
+
+--Copying Source File to Backup Source Folder
+Dummy_Folders\DEV\file1.sqr" to "Dummy_Folders\My Backup\20171130\DEV to PRJ\SQR\DEV\file1.sqr_20171130_234554
+        1 file(s) copied.
+
+--Copying Dest File to Backup Dest Folder
+"Dummy_Folders\PRJ\file1.sqr" to "Dummy_Folders\My Backup\20171130\DEV to PRJ\SQR\PRJ\file1.sqr_20171130_234554"
+The system cannot find the file specified.
+---------END Backup--------------
+
+---------START Migration------------ 
+--Migration proper of file file1.sqr
+Source: Dummy_Folders\DEV
+Destination: Dummy_Folders\PRJ
+        1 file(s) copied.
+---------END Migration--------------
+
+
+---------START Backup------------ 
+--Creating Backup of Dest File on Dest Folder
+"Dummy_Folders\PRJ\file2.sqc" to "Dummy_Folders\PRJ\file2.sqc_20171130_234554"
+The system cannot find the file specified.
+
+--Copying Source File to Backup Source Folder
+Dummy_Folders\DEV\file2.sqc" to "Dummy_Folders\My Backup\20171130\DEV to PRJ\SQR\DEV\file2.sqc_20171130_234554
+        1 file(s) copied.
+
+--Copying Dest File to Backup Dest Folder
+"Dummy_Folders\PRJ\file2.sqc" to "Dummy_Folders\My Backup\20171130\DEV to PRJ\SQR\PRJ\file2.sqc_20171130_234554"
+The system cannot find the file specified.
+---------END Backup--------------
+
+---------START Migration------------ 
+--Migration proper of file file2.sqc
+Source: Dummy_Folders\DEV
+Destination: Dummy_Folders\PRJ
+        1 file(s) copied.
+---------END Migration--------------
+
+
+---------START Backup------------ 
+--Creating Backup of Dest File on Dest Folder
+"Dummy_Folders\PRJ\file3.cob" to "Dummy_Folders\PRJ\file3.cob_20171130_234554"
+The system cannot find the file specified.
+
+--Copying Source File to Backup Source Folder
+Dummy_Folders\DEV\file3.cob" to "Dummy_Folders\My Backup\20171130\DEV to PRJ\SQR\DEV\file3.cob_20171130_234554
+        1 file(s) copied.
+
+--Copying Dest File to Backup Dest Folder
+"Dummy_Folders\PRJ\file3.cob" to "Dummy_Folders\My Backup\20171130\DEV to PRJ\SQR\PRJ\file3.cob_20171130_234554"
+The system cannot find the file specified.
+---------END Backup--------------
+
+---------START Migration------------ 
+--Migration proper of file file3.cob
+Source: Dummy_Folders\DEV
+Destination: Dummy_Folders\PRJ
+        1 file(s) copied.
+---------END Migration--------------
+
+
+
+------------------------------------------------------
+--SQR Verification: file1.sqr
+------SOURCE------------------------------------------
+ Directory of C:\Users\test\Desktop\ScriptSubmit\My File Migrator\Dummy_Folders\DEV
+Thu 11/30/2017  11:26 PM                 5 file1.sqr
+               1 File(s)              5 bytes
+------DESTINATION-------------------------------------
+ Directory of C:\Users\test\Desktop\ScriptSubmit\My File Migrator\Dummy_Folders\PRJ
+Thu 11/30/2017  11:26 PM                 5 file1.sqr
+               1 File(s)              5 bytes
+------------------------------------------------------
+
+
+------------------------------------------------------
+--SQR Verification: file2.sqc
+------SOURCE------------------------------------------
+ Directory of C:\Users\test\Desktop\ScriptSubmit\My File Migrator\Dummy_Folders\DEV
+Thu 11/30/2017  11:26 PM                 5 file2.sqc
+               1 File(s)              5 bytes
+------DESTINATION-------------------------------------
+ Directory of C:\Users\test\Desktop\ScriptSubmit\My File Migrator\Dummy_Folders\PRJ
+Thu 11/30/2017  11:26 PM                 5 file2.sqc
+               1 File(s)              5 bytes
+------------------------------------------------------
+
+
+------------------------------------------------------
+--SQR Verification: file3.cob
+------SOURCE------------------------------------------
+ Directory of C:\Users\test\Desktop\ScriptSubmit\My File Migrator\Dummy_Folders\DEV
+Thu 11/30/2017  11:26 PM                 5 file3.cob
+               1 File(s)              5 bytes
+------DESTINATION-------------------------------------
+ Directory of C:\Users\test\Desktop\ScriptSubmit\My File Migrator\Dummy_Folders\PRJ
+Thu 11/30/2017  11:26 PM                 5 file3.cob
+               1 File(s)              5 bytes
+------------------------------------------------------
+

@@ -1,0 +1,12 @@
+; Created by Nestor Gramata Jr. 
+; Created 20171120
+; semi-colons are comments
+; there are currently 3 threshold variables
+;  1. lowThresholdDrive -> free drive space lower than this percentage is an error
+;  2. lowThresholdMem -> free Memory/RAM lower than this percentage is an error
+;  3. highThresholdCPU -> overall CPU utilization greater than this percentage is an error
+; don't put any percent symbol
+
+lowThresholdDrive=9
+lowThresholdMem=10
+highThresholdCPU=90

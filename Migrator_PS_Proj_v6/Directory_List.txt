@@ -1,0 +1,8 @@
+; Lines starting with semi-colon are comments
+; There are currently 5 variables in this file
+
+DEV=HCM91DEV
+STG=HCM91STG
+TST=HCM91TST
+PRJ=HCM91PRJ
+PRD=HCM91PRD

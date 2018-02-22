@@ -1,0 +1,3 @@
+file1.sqr
+file2.sqc
+file3.cob

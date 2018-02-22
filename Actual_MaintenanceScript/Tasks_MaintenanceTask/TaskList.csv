@@ -1,0 +1,20 @@
+esipsawd01,ESI_EISAI\esisvcps01,Delete Cache
+esipsawd01,ESI_EISAI\esisvcps01,PS Middle Tiers Monitoring
+esipsawd01,ESI_EISAI\esisvcps01,Start Service
+:
+esipsawd02,ESI_EISAI\esisvcps01,Delete Cache
+esipsawd02,ESI_EISAI\esisvcps01,PS Middle Tiers Monitoring
+esipsawd02,ESI_EISAI\esisvcps01,Start Service
+:
+esipswwd01,ESI_EISAI\esisvcps01,Delete Cache
+esipswwd01,ESI_EISAI\esisvcps01,PS Middle Tiers Monitoring
+esipswwd01,ESI_EISAI\esisvcps01,Start Service
+:
+esipsawp01,ESI_EISAI\esisvcps01,Delete Cache
+esipsawp01,ESI_EISAI\esisvcps01,Start Service
+:
+esipsawp02,ESI_EISAI\esisvcps01,Delete Cache
+esipsawp02,ESI_EISAI\esisvcps01,Start Service
+:
+esipswwp01,ESI_EISAI\esisvcps01,Delete Cache
+esipswwp01,ESI_EISAI\esisvcps01,Start Servicve

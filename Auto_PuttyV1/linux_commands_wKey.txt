@@ -1,0 +1,5 @@
+hostname
+date
+sudo df -h
+free -m
+uptime

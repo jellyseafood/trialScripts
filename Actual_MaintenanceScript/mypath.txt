@@ -1,0 +1,1 @@
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\PeopleSoft\Change Impact Analyzer\dll;C:\Psoft\bin\client\winx86;c:\oracle11g\product\11.2.0\client_1\bin;C:\Oracle\product\11.2.0\client_1\bin;C:\Windows\System32;C:\Program Files\WinSCP\

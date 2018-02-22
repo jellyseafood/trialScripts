@@ -1,0 +1,11 @@
+; Lines starting with semi-colon are comments
+; There are currently 5 variables in this file
+; sourceEnv and destEnv must be a variable in "Directory_List.txt"
+
+srcEnv=DEV
+destEnv=TST
+projName=PSADMIN_TEST_MIG
+
+
+backupDir=\\esipsawd01\migrations
+psideDir=D:\PT854\bin\client\winx86

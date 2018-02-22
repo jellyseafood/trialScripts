@@ -1,0 +1,172 @@
+===START===
+1. CODP.PDCJCS
+===========
+pdcjcs-wls-1
+Thu Nov 16 03:51:23 UTC 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/xvdb3             16G   11G  4.4G  71% /
+tmpfs                 7.3G     0  7.3G   0% /dev/shm
+/dev/xvdb1            477M  148M  300M  34% /boot
+/dev/mapper/vg_binaries-lv_tools
+                      9.8G  311M  8.9G   4% /u01/app/oracle/tools
+/dev/mapper/vg_backup-lv_backup
+                       20G   44M   19G   1% /u01/data/backup
+/dev/mapper/vg_domains-lv_domains
+                      9.8G  6.5G  2.8G  70% /u01/data/domains
+/dev/mapper/vg_binaries-lv_mw
+                      9.8G  3.1G  6.2G  34% /u01/app/oracle/middleware
+/dev/mapper/vg_binaries-lv_jdk
+                      2.0G  302M  1.6G  17% /u01/jdk
+             total       used       free     shared    buffers     cached
+Mem:         14783       8858       5925          8        581       5004
+-/+ buffers/cache:       3272      11510
+Swap:         4095          0       4095
+ 03:51:23 up 21 days, 19:19,  1 user,  load average: 0.06, 0.05, 0.05
+
+
+===========
+2. CODP.PDCDB
+===========
+PDCORACLE
+Thu Nov 16 11:51:05 SGT 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/xvdb3             25G   18G  6.3G  74% /
+tmpfs                  15G  7.9G  6.8G  54% /dev/shm
+/dev/xvdb1            477M  148M  300M  34% /boot
+/dev/xvdc1             30G   17G   11G  61% /u01
+/dev/mapper/dataVolGroup-lvol0
+                       99G   68G   26G  73% /u02
+/dev/mapper/fraVolGroup-lvol0
+                      9.8G   92M  9.2G   1% /u03
+/dev/mapper/redoVolGroup-lvol0
+                      9.8G  3.1G  6.2G  33% /u04
+             total       used       free     shared    buffers     cached
+Mem:         29902      25152       4749       8000        803      22614
+-/+ buffers/cache:       1735      28167
+Swap:         4095          0       4095
+ 11:51:05 up 21 days, 21:18,  1 user,  load average: 0.15, 0.16, 0.16
+
+
+===========
+3. heyfit_compute - 129.191.22.63
+===========
+d28c66
+Wed Nov 15 22:51:31 EST 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg_main-lv_root
+                      5.8G  4.6G  979M  83% /
+tmpfs                 3.7G     0  3.7G   0% /dev/shm
+/dev/xvdb1            477M   67M  381M  15% /boot
+/dev/xvdc3             95G  1.2G   89G   2% /u01
+             total       used       free     shared    buffers     cached
+Mem:          7477       6902        575          0        223        988
+-/+ buffers/cache:       5690       1787
+Swap:            0          0          0
+ 22:51:31 up 188 days, 22:05,  0 users,  load average: 0.00, 0.01, 0.05
+
+
+===========
+4. heyfit_database - 129.191.22.2
+===========
+acnfitdevdb
+Thu Nov 16 03:51:32 UTC 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg_main-lv_root
+                       19G   13G  4.7G  74% /
+tmpfs                 7.4G     0  7.4G   0% /dev/shm
+/dev/xvdb1            477M   69M  379M  16% /boot
+/dev/xvde1             59G   21G   36G  37% /u01
+/dev/mapper/dataVolGroup-lvol0
+                      173G  8.8G  155G   6% /u02
+/dev/mapper/fraVolGroup-lvol0
+                       17G  4.2G   12G  27% /u03
+/dev/mapper/redoVolGroup-lvol0
+                       26G  3.3G   21G  14% /u04
+             total       used       free     shared    buffers     cached
+Mem:         15037      10099       4938          0        739       2140
+-/+ buffers/cache:       7219       7818
+Swap:         4095          0       4095
+ 03:51:32 up 67 days,  5:09,  0 users,  load average: 0.03, 0.17, 0.19
+
+
+===========
+5. aws_accenturefit - 54.165.67.118
+===========
+ip-10-0-0-187.ec2.internal
+Wed Nov 15 22:51:59 EST 2017
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1      5.6G  3.9G  1.7G  71% /
+none            6.0G     0  6.0G   0% /dev/shm
+/dev/xvdb1       50G   36G   14G  74% /u01
+/dev/xvdf       493G  227G  241G  49% /u02
+             total       used       free     shared    buffers     cached
+Mem:          7363       7184        178       2647        326       5030
+-/+ buffers/cache:       1827       5535
+Swap:         7627        468       7159
+ 22:51:59 up 36 days, 12:24,  1 user,  load average: 0.00, 0.14, 0.16
+
+
+===========
+6. Liquid Anki - 129.150.64.172
+===========
+liquidankidb
+Thu Nov 16 11:23:29 SGT 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/xvdb3             25G   15G  8.9G  63% /
+tmpfs                 7.3G     0  7.3G   0% /dev/shm
+/dev/xvdb1            477M  148M  300M  34% /boot
+/dev/xvde1             59G   11G   46G  19% /u01
+/dev/mapper/dataVolGroup-lvol0
+                      197G   28G  159G  15% /u02
+/dev/mapper/fraVolGroup-lvol0
+                      335G  196G  123G  62% /u03
+/dev/mapper/redoVolGroup-lvol0
+                       30G  3.5G   25G  13% /u04
+             total       used       free     shared    buffers     cached
+Mem:         14783      12009       2774          0        956       2897
+-/+ buffers/cache:       8154       6628
+Swap:         4095          0       4095
+ 11:23:29 up 218 days, 20:08,  0 users,  load average: 0.07, 0.15, 0.11
+
+
+===========
+7. VHI PRD compute - 144.21.68.35
+===========
+e6592a
+Wed Nov 15 22:51:34 EST 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg_main-lv_root
+                       18G   14G  2.8G  83% /
+tmpfs                 3.7G     0  3.7G   0% /dev/shm
+/dev/xvdb1            477M   60M  388M  14% /boot
+/dev/xvdc1            296G  7.7G  273G   3% /u01
+             total       used       free     shared    buffers     cached
+Mem:          7477       7404         73          0        437         95
+-/+ buffers/cache:       6871        605
+Swap:            0          0          0
+ 22:51:34 up 83 days, 16:45,  0 users,  load average: 0.00, 0.01, 0.05
+
+
+===========
+8. VHI PRD database - 144.21.68.116
+===========
+vhiinvdb
+Thu Nov 16 03:51:37 UTC 2017
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg_main-lv_root
+                       19G   14G  3.9G  78% /
+tmpfs                 3.7G  892K  3.7G   1% /dev/shm
+/dev/xvdb1            477M   69M  379M  16% /boot
+/dev/xvde1             59G   18G   39G  32% /u01
+/dev/mapper/dataVolGroup-lvol0
+                       99G   13G   81G  14% /u02
+/dev/mapper/fraVolGroup-lvol0
+                      168G   44G  116G  28% /u03
+/dev/mapper/redoVolGroup-lvol0
+                       25G  3.6G   20G  16% /u04
+             total       used       free     shared    buffers     cached
+Mem:          7477       6930        546          0        533       2400
+-/+ buffers/cache:       3997       3480
+Swap:         4095        884       3211
+ 03:51:37 up 89 days,  7:01,  0 users,  load average: 1.38, 1.14, 1.08
+===END=====

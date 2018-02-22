@@ -1,0 +1,11 @@
+; Lines starting with semi-colon are comments
+; There are currently 7 variables in this file
+
+DEV=Dummy_Folders\DEV
+STG=Dummy_Folders\STG
+TST=Dummy_Folders\TST
+PRJ=Dummy_Folders\PRJ
+PRD=Dummy_Folders\PRD
+
+backupDir=Dummy_Folders\My Backup
+logDir=logs

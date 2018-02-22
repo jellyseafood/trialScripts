@@ -1,0 +1,5 @@
+hostname
+date
+df -h
+free -m
+uptime

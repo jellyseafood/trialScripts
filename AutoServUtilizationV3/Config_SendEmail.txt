@@ -1,0 +1,26 @@
+; Created by Nestor Gramata Jr. 
+; Created 20171115
+; Lines that begin with semi-colon are comments
+; 3 variables are declared here
+;  1. smtpServer -> the virtual SMTP server's IP address
+;  2. emailFrom -> the sender's address
+;  3. emailTo ->  the recipient's address (can be several)
+; No unnecessary whitespaces must be placed on either side of the variable
+; The lines starts with a variable name, no whitespace
+; Parser ignores lines starting with space
+; Parser ignores blank lines
+;
+; Sample Format and Variables are Declared as Follows:
+;
+; <variable>=<value>
+;
+; smtpServer=192.168.1.1
+; emailFrom=user1@mailer.com
+; emailTo=user2@mailer.com, user3@mailer.com
+; 
+
+smtpServer=10.164.91.22
+emailFrom=PeopleSoft@peoplesoft.com
+emailTo=nestor.b.gramata.jr@accenture.com, jon.luc.c.p.julian@accenture.com, chynna.p.m.orpilla@accenture.com, carlos.j.e.arcardo@accenture.com, charmaine.v.torres@accenture.com, lorielyn.p.legarde@accenture.com, eva.l.tantoco@accenture.com, astel.c.s.fortuno@accenture.com
+;emailTo=SF.Oracle.STS.AAES@accenture.com
+;emailTo=nestor.b.gramata.jr@accenture.com, SF.Oracle.STS.AAES@accenture.com
